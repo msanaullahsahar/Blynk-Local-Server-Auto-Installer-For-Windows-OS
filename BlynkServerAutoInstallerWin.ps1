@@ -34,7 +34,7 @@ cd C:\BlynkLocalServer
 #================================================================================================
 # Fetch blynk local server from GitHub
 $url = "https://github.com/blynkkk/blynk-server/releases/download/v" + $BlynkServerVer + "/server-" + $BlynkServerVer + ".jar"
-$output = "$PSScriptRoot\server-0.41.11.jar"
+$output = "$PSScriptRoot\server-$BlynkServerVer.jar"
 Invoke-WebRequest -Uri $url -OutFile $output
 
 #================================================================================================
@@ -71,13 +71,13 @@ netsh advfirewall firewall add rule name="OpenPort 9443" dir=in action=allow pro
 
 #================================================================================================
 # Run Blynk Server
-java -jar server-0.41.11.jar -dataFolder BlynkLocalServer
+java -jar server-$BlynkServerVer.jar -dataFolder BlynkLocalServer
 
 
 #================================================================================================
 # Create Auto Start for Blynk Server
 New-Item start-blynk.bat
-Set-Content start-blynk.bat 'java -jar server-0.41.11.jar -dataFolder BlynkLocalServer'
+Set-Content start-blynk.bat 'java -jar server-$BlynkServerVer.jar -dataFolder BlynkLocalServer'
 Move-Item start-blynk.bat -Destination "C:\Users\${env:UserName}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 [console]::beep(2000,500)
 
