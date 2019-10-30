@@ -19,4 +19,4 @@ Below are the instructions to install **Blynk Local Server** and **Blynk Library
 6. Restart your PC/laptop.
 7. Access admin page of Blynk local server at https://127.0.0.1/9443
 8. Super easy. Isn't it?
-9. Report any error if you encounter on using this script at my GitHub page.
+9. Report any error if you encounter while using this script.
