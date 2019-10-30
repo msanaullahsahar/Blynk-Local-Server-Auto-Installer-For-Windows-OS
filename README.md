@@ -5,7 +5,7 @@ How to install Blynk local server on Windows OS
 
 
 1. Make a folder with name **rawFolder** on your desktop
-2. Download a script **.\BlynkServerAutoInstallerWin.ps1** and put it in the rawFolder using the following url,
+2. Download a script **.\BlynkServerAutoInstallerWin.ps1** from a link given below and put it in the rawFolder,
 
 https://raw.githubusercontent.com/msanaullahsahar/Blynk-Local-Server-Auto-Installer-For-Windows-OS/master/BlynkServerAutoInstallerWin.ps1
 
