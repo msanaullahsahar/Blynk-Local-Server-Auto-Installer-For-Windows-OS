@@ -8,10 +8,10 @@ Below are the instructions to install **Blynk Local Server** and **Blynk Library
 1. Make a folder with name **rawFolder** on your desktop
 2. Download a script **[BlynkServerAutoInstallerWin.ps1](https://raw.githubusercontent.com/msanaullahsahar/Blynk-Local-Server-Auto-Installer-For-Windows-OS/master/BlynkServerAutoInstallerWin.ps1)** and put it in the rawFolder,
 2. Run windows Powershell as Administrator.
-3. Change the directory of powershell to rawFolder you just created and now it also contains a script "BlynkServerAutoInstall.ps1".
+3. Change the directory of powershell to rawFolder you just created.
 4. Type the following command in powershell window and Hit Enter Key.
    
-   **.\BlynkServerAutoInstallerWin.ps1**
+   ## **.\BlynkServerAutoInstallerWin.ps1**
    
 5. Wait for the process to complete.
 6. Restart your PC/laptop.
