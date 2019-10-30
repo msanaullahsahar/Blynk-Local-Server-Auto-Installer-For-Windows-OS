@@ -10,7 +10,7 @@ Begin {
 	#Write-Warning "You are not running this script as an administrator. Run it again as administrator." ;
 	break
 	}
-	
+$BlynkServerVer="0.41.11"	
 $start_time = Get-Date
 Write-Host "`r`n"
 Write-Host "This script will download and install Blynk Local Server on your PC/Laptop." -ForegroundColor Red -BackgroundColor Yellow
@@ -33,7 +33,7 @@ cd C:\BlynkLocalServer
 
 #================================================================================================
 # Fetch blynk local server from GitHub
-$url = "https://github.com/blynkkk/blynk-server/releases/download/v0.41.11/server-0.41.11.jar"
+$url = "https://github.com/blynkkk/blynk-server/releases/download/v" + $BlynkServerVer + "/server-" + $BlynkServerVer + ".jar"
 $output = "$PSScriptRoot\server-0.41.11.jar"
 Invoke-WebRequest -Uri $url -OutFile $output
 
