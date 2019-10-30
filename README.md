@@ -1,6 +1,6 @@
 # Blynk Local Server Auto Installer For Microsoft Windows OS
 
-Below are the instructions to install **Blynk Local Server** on a Windows OS
+Below are the instructions to install **Blynk Local Server** and **Blynk Library For Arduino IDE" on a Windows OS
 
 
 ## How to install Blynk local server on Windows OS?
