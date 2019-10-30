@@ -77,7 +77,8 @@ java -jar server-$BlynkServerVer.jar -dataFolder BlynkLocalServer
 #================================================================================================
 # Create Auto Start for Blynk Server
 New-Item start-blynk.bat
-Set-Content start-blynk.bat 'java -jar server-$BlynkServerVer.jar -dataFolder BlynkLocalServer'
+$BlynkCMD = "java -jar server-"+ $BlynkServerVer+".jar -dataFolder BlynkLocalServer"
+Set-Content start-blynk.bat $BlynkCMD
 Move-Item start-blynk.bat -Destination "C:\Users\${env:UserName}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 [console]::beep(2000,500)
 
