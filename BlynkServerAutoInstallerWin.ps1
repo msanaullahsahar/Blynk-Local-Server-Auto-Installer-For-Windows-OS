@@ -10,11 +10,24 @@ Begin {
 	#Write-Warning "You are not running this script as an administrator. Run it again as administrator." ;
 	break
 	}
-$BlynkServerVer="0.41.11"	
+$BlynkServerVer="0.41.11"
+$LibraryVer="0.6.1"
 $start_time = Get-Date
 Write-Host "`r`n"
 Write-Host "This script will download and install Blynk Local Server on your PC/Laptop." -ForegroundColor Red -BackgroundColor Yellow
 Write-Host "`r`n"
+
+#================================================================================================
+# First Download and install Blynk Library
+# Fetch Blynk Library from GitHub
+$url = "https://github.com/blynkkk/blynk-library/releases/download/v" + $LibraryVer + "/Blynk_Release_v" + $LibraryVer + ".zip"
+$output = "$PSScriptRoot\Blynk_Release_v$LibraryVer.zip"
+Invoke-WebRequest -Uri $url -OutFile $output
+# Unzip Library in Arduino Folder
+$LibraryPath = "C:\Users\$env:UserName\Documents\Arduino"
+expand-archive "Blynk_Release_v$LibraryVer.zip" -destinationpath $LibraryPath
+# Remove downloaded Library
+rmdir Blynk_Release_v$LibraryVer.zip
 
 #================================================================================================
 # Remove folder and files if there were already downloaded.
