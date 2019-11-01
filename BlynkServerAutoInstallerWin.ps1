@@ -11,6 +11,22 @@ Begin {
 	break
 	}
 
+# Check Java	
+$javaVer=(Get-Command java | Select-Object -ExpandProperty Version).tostring()
+$javaCheck=$javaVer.Split(".")
+
+if ($javaCheck[0] -lt 15){
+	Start-Process https://www.oracle.com/technetwork/java/javase/overview/index.html
+	Add-Type -AssemblyName PresentationCore,PresentationFramework
+	$ButtonType = [System.Windows.MessageBoxButton]::Ok
+	$MessageIcon = [System.Windows.MessageBoxImage]::Warning
+	$MessageBody = "Please install latest java. If you have already installed it then add it to environment variables."
+	$MessageTitle = "Java Required"
+	$Result = [System.Windows.MessageBox]::Show($MessageBody,$MessageTitle,$ButtonType,$MessageIcon)
+	break
+}
+
+
 $BlynkServerVer="0.41.11"
 $LibraryVer="0.6.1"
 
