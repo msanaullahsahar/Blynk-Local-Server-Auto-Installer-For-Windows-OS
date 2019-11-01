@@ -15,7 +15,7 @@ Begin {
 $javaVer=(Get-Command java | Select-Object -ExpandProperty Version).tostring()
 $javaCheck=$javaVer.Split(".")
 
-if ($javaCheck[0] -lt 15){
+if ($javaCheck[0] -lt 11){
 	Start-Process https://www.oracle.com/technetwork/java/javase/overview/index.html
 	Add-Type -AssemblyName PresentationCore,PresentationFramework
 	$ButtonType = [System.Windows.MessageBoxButton]::Ok
