@@ -12,12 +12,12 @@ Below are the instructions to install **Blynk Local Server** and **Blynk Library
 ```
 cd C:\Users\$env:UserName\Desktop\rawFolder
 ```
-6. Type the following command in powershell window, reply with **A** and Hit ENTER Key.
+6. Type the following command in powershell window and hit ENTER key.
 
 ```
-set-executionpolicy remotesigned
+Set-ExecutionPolicy RemoteSigned -Force
 ```
-7. Type the following command in powershell window and Hit Enter Key.
+7. Now to run the 'installation script' type the following command in powershell window and again hit ENTER Key.
 
 ```
 .\BlynkServerAutoInstallerWin.ps1
