@@ -25,6 +25,6 @@ set-executionpolicy remotesigned
    
 6. Wait for the process to complete.
 7. Restart your PC/laptop.
-8. Access admin page of Blynk local server at (https://127.0.0.1:9443/admin) or (https://192.168.1.6:9443/admin)
+8. Access admin page of Blynk local server at https://127.0.0.1:9443/admin
 9. Super easy. Isn't it?
 10. Report any error if you encounter while using this script at here: [Report Issue](https://github.com/msanaullahsahar/Blynk-Local-Server-Auto-Installer-For-Windows-OS/issues/new)
