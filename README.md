@@ -12,7 +12,7 @@ Below are the instructions to install **Blynk Local Server** and **Blynk Library
 ```
 cd C:\Users\$env:UserName\Desktop\rawFolder
 ```
-4. Type the following command in powershell window, reply with **Y** and Hit ENTER Key.
+4. Type the following command in powershell window, reply with **A** and Hit ENTER Key.
 
 ```
 set-executionpolicy remotesigned
