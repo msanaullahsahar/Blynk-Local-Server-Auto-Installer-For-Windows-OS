@@ -17,7 +17,7 @@ cd C:\Users\$env:UserName\Desktop\rawFolder
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
-7. Now to run the _installation script_ copy and paste the following command in powershell window and again hit ENTER Key.
+7. Now to run the _installation script_, copy and paste the following command in powershell window and again hit ENTER Key.
 
 ```
 .\BlynkServerAutoInstallerWin.ps1
