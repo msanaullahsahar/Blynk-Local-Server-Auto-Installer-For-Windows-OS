@@ -4,9 +4,9 @@ Below are the instructions to install **Blynk Local Server** and **Blynk Library
 
 
 ## How to install Blynk local server on Windows OS - 64 bit?
-1. Install Java 11 from **[OpenLogic](https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.26+4/openlogic-openjdk-jre-11.0.26+4-windows-x64.msi)**
-2. Make a folder with name **rawFolder** on your desktop
-3. Download a script **[BlynkServerAutoInstallerWin.ps1](https://raw.githubusercontent.com/msanaullahsahar/Blynk-Local-Server-Auto-Installer-For-Windows-OS/master/BlynkServerAutoInstallerWin.ps1)** and put it in the rawFolder,
+1. Install Java 11 from **[OpenLogic](https://builds.openlogic.com/downloadJDK/openlogic-openjdk-jre/11.0.26+4/openlogic-openjdk-jre-11.0.26+4-windows-x64.msi)**.
+2. Make a folder with name **rawFolder** on your desktop.
+3. Download a script **[BlynkServerAutoInstallerWin.ps1](https://raw.githubusercontent.com/msanaullahsahar/Blynk-Local-Server-Auto-Installer-For-Windows-OS/master/BlynkServerAutoInstallerWin.ps1)** and put it in the _rawFolder_.
 4. Run windows Powershell as Administrator.
 5. Change the directory of powershell to rawFolder by pasting the command below in powershell.
 ```
