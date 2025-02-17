@@ -24,6 +24,5 @@ Set-ExecutionPolicy RemoteSigned -Force
 ```
    
 8. Wait for the process to complete.
-9. Access admin page of Blynk local server at https://127.0.0.1:9443/admin (Admin Email is: admin@blynk.cc  Admin Password: 12345)
-10. Super easy. Isn't it?
-11. As usual, report any error while using this script: [Report Issue](https://github.com/msanaullahsahar/Blynk-Local-Server-Auto-Installer-For-Windows-OS/issues/new)
+9. Access admin page of _blynk local server_ at https://127.0.0.1:9443/admin (Email is: admin@blynk.cc  Password: 12345)
+10. Super easy. Isn't it? As usual, report any error while using this script: [Report Issue](https://github.com/msanaullahsahar/Blynk-Local-Server-Auto-Installer-For-Windows-OS/issues/new)
