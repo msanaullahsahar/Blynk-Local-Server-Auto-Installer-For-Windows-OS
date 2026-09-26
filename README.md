@@ -1,6 +1,6 @@
 # Blynk Local Server Installer For Windows 10/11 64 bit
 
-Below are the instructions to install **Blynk Local Server** and **Blynk Library For Arduino IDE** on a Windows-64 bit OS
+Below are the instructions to install **Blynk Local Server** and **Blynk Library For Arduino IDE** on a Windows-64 bit OS.
 
 
 ## Steps to install blynk local server on Windows 10/11 - 64 bit?
